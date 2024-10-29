@@ -8,7 +8,7 @@ node('ubuntu-us-ord-Homework01-App')
 
     stage('Build-and-Tag')
     {
-        app = docker.build('wiljany/NodejsChatApp')
+        app = docker.build('wiljany/nodejschatapp')
     }
 
     stage('Post-to-dockerhub')
