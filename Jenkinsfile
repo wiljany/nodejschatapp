@@ -1,4 +1,4 @@
-node('ubuntu-Appserver-2140')
+node('ubuntu-us-ord-Homework01-App')
 {
     def app
     stage('Cloning Git')
