@@ -3,6 +3,6 @@ services:
   apache:
     image: 'wiljany/nodejschatapp'
     ports:
-    - "80:80"
+    - "80:3000"
     volumes:
     - . /usr/local/apache2/htdocs/
